@@ -51,7 +51,7 @@ export default function Home() {
         border-4 border-purple-700 shadow-[0_0_30px_rgba(59,130,246,0.5)] 
         hover:scale-105 transition-transform duration-500">
           <img
-            src="/assets/cots-logo.png"
+          src="/personal-portfolio/assets/govind_yadav.jpg"
             alt="Govind Kumar Yadav"
             className="object-cover w-full h-full"
           />
