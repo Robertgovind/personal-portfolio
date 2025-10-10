@@ -7,37 +7,37 @@ const certificationsData = [
     title: "Flutter & Dart - The Complete Flutter Development Course",
     issuer: "Udemy, Instructed by Hussain Mustafa",
     year: "April 2024",
-    image: "/personal-portfolio/certificates/cf6.jpg",
+    image: "/certificates/cf6.jpg",
   },
   {
     title: "Microsoft Learn Student Ambassador",
     issuer: "pablo Veramendi",
     year: "2023",
-    image: "/personal-portfolio/certificates/cf5.png",
+    image: "/certificates/cf5.png",
   },
   {
     title: "Backend Development with Node.js",
     issuer: "Udemy, Instructed by Pierre-Henry Soria",
     year: "20Nov 202422",
-    image: "/personal-portfolio/certificates/cf7.jpg",
+    image: "/certificates/cf7.jpg",
   },
   {
     title: "Microsoft Learn Student Ambassador-Alpha",
     issuer: "Pablo Veramendi",
     year: "2023",
-    image: "/personal-portfolio/certificates/cf3.png",
+    image: "/certificates/cf3.png",
   },
   {
     title: "AWS Fellowship: Cohort 1",
     issuer: "AWS Cloud Club Nepal",
     year: "2024",
-    image: "/personal-portfolio/certificates/cf1.png",
+    image: "/certificates/cf1.png",
   },
   {
     title: "AWS Academy Cloud Foundations",
     issuer: "AWS Academy",
     year: "2025",
-    image: "/personal-portfolio/certificates/cf2.png",
+    image: "/certificates/cf2.png",
   },
 ];
 

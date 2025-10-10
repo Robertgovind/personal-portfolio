@@ -6,13 +6,13 @@ const projectsData = [
   {
     title: "Sports Arena",
     description: "SportsArena is a fullstack MERN-based web application that helps colleges organize and manage sports events.",
-    image: "/personal-portfolio/projects/sports-arena.png", 
+    image: "/projects/sports-arena.png", 
     link: "https://github.com/Robertgovind/SportsArena",
   },
   {
     title: "Tagify",
     description: "A robust backend CMS(Content Management System)API for a modern blog platform with categories, tags, and advanced filtering. Built with Node.js, Express, and MongoDB.",
-    image: "/personal-portfolio/projects/tagify.png",
+    image: "/projects/tagify.png",
     link: "https://github.com/Robertgovind/Tagify",
   },
   {
@@ -21,13 +21,13 @@ const projectsData = [
     MongoDB, and JWT.This project implements a secure authentication based on Email/Password-based 
     authentication system, OAuth (Social Login), Magic Link Authentication, 
     OTP based Login, 2FA`,
-    image: "/personal-portfolio/projects/authverse.png",
+    image: "/projects/authverse.png",
     link: "https://github.com/Robertgovind/AuthVerse",
   },
   {
     title: "ProgressFeed",
     description: "A mobile application that establishes clear transpancy between Cotnractor, Government authority and General public.",
-    image: "/personal-portfolio/projects/progress-feed.png",
+    image: "/projects/progress-feed.png",
     link: "https://github.com/Robertgovind/Tagify",
   },
 ];

@@ -9,7 +9,7 @@ const experienceData = [
     period: "Dec 2022 - 2025",
     description:
       "I became part of Microsoft Learn as a student ambassador, where I help students and professionals learn about cloud computing, Azure services, and Microsoft technologies through workshops, events , and online content.",
-    logo: "/personal-portfolio/experience/mlsa.png",
+    logo: "/experience/mlsa.png",
   },
   {
     role: "Technical Team Member",
@@ -17,7 +17,7 @@ const experienceData = [
     period: "Feb 2025 - Present",
     description:
       "I am a technical team member of AWS Cloud Club, where I contribute to organizing events, workshops, and activities related to cloud computing and AWS services for students and professionals.",
-    logo: "/personal-portfolio/experience/aws-ioe.png",
+    logo: "/experience/aws-ioe.png",
   },
   {
     role: "Member",
@@ -25,7 +25,7 @@ const experienceData = [
     period: "Mar 2025 - Present",
     description:
       "This is one of the most active technical clubs in IOE Paschimanchal Campus Pokhara. I am a member of this club, where we organizes various technical events, workshops, and activities.",
-    logo: "/personal-portfolio/experience/cots-logo.png",
+    logo: "/experience/cots-logo.png",
   },
 ];
 
