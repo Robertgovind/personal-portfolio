@@ -1,30 +1,31 @@
 import React from "react";
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 
 const experienceData = [
   {
-    role: "Backend & DevOps Engineer",
-    company: "TechCorp Inc.",
-    period: "Jan 2023 - Present",
+    role: "Student Ambassador",
+    company: "Microsoft Learn",
+    period: "Dec 2022 - 2025",
     description:
-      "Developed scalable backend systems using Node.js, Express, and MongoDB. Implemented CI/CD pipelines and managed cloud infrastructure on AWS.",
-    logo: "/assets/company-placeholder.png",
+      "I became part of Microsoft Learn as a student ambassador, where I help students and professionals learn about cloud computing, Azure services, and Microsoft technologies through workshops, events , and online content.",
+    logo: "/personal-portfolio/experience/mlsa.png",
   },
   {
-    role: "Software Developer Intern",
-    company: "CloudSolutions Ltd.",
-    period: "Jun 2022 - Dec 2022",
+    role: "Technical Team Member",
+    company: "AWS Cloud Club Paschimanchal Campus Pokhara",
+    period: "Feb 2025 - Present",
     description:
-      "Assisted in building microservices and REST APIs. Learned DevOps best practices and cloud deployment strategies.",
-    logo: "/assets/company-placeholder.png",
+      "I am a technical team member of AWS Cloud Club, where I contribute to organizing events, workshops, and activities related to cloud computing and AWS services for students and professionals.",
+    logo: "/personal-portfolio/experience/aws-ioe.png",
   },
   {
-    role: "Freelance Developer",
-    company: "Self-Employed",
-    period: "Mar 2021 - May 2022",
+    role: "Member",
+    company: "Club of Technical Students(COTS)",
+    period: "Mar 2025 - Present",
     description:
-      "Built custom web applications for clients, integrating frontend, backend, and cloud services. Focused on automation and scalability.",
-    logo: "/assets/company-placeholder.png",
+      "This is one of the most active technical clubs in IOE Paschimanchal Campus Pokhara. I am a member of this club, where we organizes various technical events, workshops, and activities.",
+    logo: "/personal-portfolio/experience/cots-logo.png",
   },
 ];
 
@@ -72,7 +73,7 @@ export default function Experience() {
               className="bg-purple-900/20 backdrop-blur-md p-6 rounded-2xl shadow-lg shadow-purple-500/30 w-full md:w-1/2 hover:cursor-pointer relative z-10"
             >
               <div className="flex items-center mb-4 space-x-4">
-                <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-purple-500 shadow-md flex-shrink-0">
+                <div className="w-22 h-22 rounded-full overflow-hidden border-2 border-purple-500 shadow-md flex-shrink-0">
                   <img
                     src={exp.logo}
                     alt={exp.company}

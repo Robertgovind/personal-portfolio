@@ -4,22 +4,31 @@ import { motion } from "framer-motion";
 
 const projectsData = [
   {
-    title: "Project One",
-    description: "This is a brief description of Project One. Built with modern technologies and best practices.",
-    image: "/assets/project-placeholder.png", // Placeholder image
-    link: "#",
+    title: "Sports Arena",
+    description: "SportsArena is a fullstack MERN-based web application that helps colleges organize and manage sports events.",
+    image: "/personal-portfolio/projects/sports-arena.png", 
+    link: "https://github.com/Robertgovind/SportsArena",
   },
   {
-    title: "Project Two",
-    description: "This is a brief description of Project Two. It focuses on scalability and performance.",
-    image: "/assets/project-placeholder.png",
-    link: "#",
+    title: "Tagify",
+    description: "A robust backend CMS(Content Management System)API for a modern blog platform with categories, tags, and advanced filtering. Built with Node.js, Express, and MongoDB.",
+    image: "/personal-portfolio/projects/tagify.png",
+    link: "https://github.com/Robertgovind/Tagify",
   },
   {
-    title: "Project Three",
-    description: "This is a brief description of Project Three. It demonstrates fullstack and DevOps integration.",
-    image: "/assets/project-placeholder.png",
-    link: "#",
+    title: "Authverse",
+    description: `AuthVerse is a modular, backend-only authentication API built using Node.js, Express, 
+    MongoDB, and JWT.This project implements a secure authentication based on Email/Password-based 
+    authentication system, OAuth (Social Login), Magic Link Authentication, 
+    OTP based Login, 2FA`,
+    image: "/personal-portfolio/projects/authverse.png",
+    link: "https://github.com/Robertgovind/AuthVerse",
+  },
+  {
+    title: "ProgressFeed",
+    description: "A mobile application that establishes clear transpancy between Cotnractor, Government authority and General public.",
+    image: "/personal-portfolio/projects/progress-feed.png",
+    link: "https://github.com/Robertgovind/Tagify",
   },
 ];
 
