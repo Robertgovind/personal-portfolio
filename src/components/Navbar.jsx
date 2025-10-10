@@ -23,7 +23,7 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="bg-gray-900/90 backdrop-blur-md text-white sticky top-0 z-50 shadow-md">
+    <nav className="bg-gray-900/90 position-fixed backdrop-blur-md text-white sticky top-0 z-50 shadow-md">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         <a
           href="#home"

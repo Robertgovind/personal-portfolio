@@ -47,10 +47,11 @@ export default function Home() {
       </div>
 
       <div className="flex justify-center md:justify-end flex-1 m-15">
-        <div className="relative w-56 h-66 md:w-80 md:h-80 rounded-full overflow-hidden 
-        border-4 border-blue-500 shadow-[0_0_30px_rgba(59,130,246,0.5)] hover:scale-105 transition-transform duration-500">
+        <div className="relative w-75 h-80 md:w-90 md:h-90 rounded-full overflow-hidden 
+        border-4 border-purple-700 shadow-[0_0_30px_rgba(59,130,246,0.5)] 
+        hover:scale-105 transition-transform duration-500">
           <img
-            src="/assets/govind_yadav.jpg"
+            src="/assets/cots-logo.png"
             alt="Govind Kumar Yadav"
             className="object-cover w-full h-full"
           />
