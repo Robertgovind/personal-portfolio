@@ -33,7 +33,7 @@ export default function Navbar() {
           }}
           className="text-2xl font-bold text-purple-400 tracking-wide"
         >
-          GovindYadav
+          <img src="/details/name-logo-1.png" alt="Logo" className="h-16 w-75 inline mr-2"/>
         </a>
 
         <div className="hidden md:flex space-x-6 items-center">
