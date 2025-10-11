@@ -39,6 +39,12 @@ const certificationsData = [
     year: "2025",
     image: "/certificates/cf2.png",
   },
+  {
+    title: "Microsoft Learn Student Ambassador-Beta",
+    issuer: "Pablo Veramendi",
+    year: "2024",
+    image: "/certificates/cf4.png",
+  },
 ];
 
 export default function Certifications() {

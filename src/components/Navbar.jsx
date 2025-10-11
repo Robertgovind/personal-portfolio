@@ -31,7 +31,7 @@ export default function Navbar() {
             e.preventDefault();
             handleScroll("home");
           }}
-          className="text-xl font-bold text-blue-400 tracking-wide"
+          className="text-2xl font-bold text-purple-400 tracking-wide"
         >
           GovindYadav
         </a>
@@ -41,7 +41,7 @@ export default function Navbar() {
             <button
               key={link.to}
               onClick={() => handleScroll(link.to)}
-              className="hover:text-blue-400 transition-colors duration-200"
+              className="hover:text-purple-600 cursor-pointer transition-colors duration-200"
             >
               {link.text}
             </button>

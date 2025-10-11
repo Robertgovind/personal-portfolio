@@ -28,9 +28,15 @@ export default function Home() {
         <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
           <a
             href="mailto:govind803556@gmail.com"
-            className="px-6 py-3 bg-blue-500 text-white rounded-lg font-medium hover:bg-blue-600 transition duration-300 shadow-lg"
+            className="px-6 py-3 border border-purple-900 text-purple-400 rounded-lg font-medium hover:bg-purple-800 hover:text-white transition duration-300"
           >
             Hire Me
+          </a>
+          <a
+            href="/assets/GovindKeYadav_CV.pdf"
+            className="px-6 py-3 border border-purple-900 text-purple-400 rounded-lg font-medium hover:bg-purple-800 hover:text-white transition duration-300"
+          >
+            View CV
           </a>
           <a
   href="#projects"
@@ -38,7 +44,7 @@ export default function Home() {
     e.preventDefault();
     document.getElementById("projects").scrollIntoView({ behavior: "smooth" });
   }}
-  className="px-6 py-3 border border-blue-400 text-blue-400 rounded-lg font-medium hover:bg-blue-500 hover:text-white transition duration-300"
+  className="px-6 py-3 border border-purple-900 text-purple-400 rounded-lg font-medium hover:bg-purple-800 hover:text-white transition duration-300"
 >
   See My Projects
 </a>
@@ -46,12 +52,12 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="flex justify-center md:justify-end flex-1 m-15">
-        <div className="relative w-75 h-80 md:w-90 md:h-90 rounded-full overflow-hidden 
+      <div className="flex justify-center md:justify-end flex-1 m-15 ">
+        <div className="relative w-75 h-80 md:w-100 md:h-100 rounded-full overflow-hidden 
         border-4 border-purple-700 shadow-[0_0_30px_rgba(59,130,246,0.5)] 
         hover:scale-105 transition-transform duration-500">
           <img
-          src={"/profile/govind_yadav.jpg"}
+          src={"/assets/govind_yadav.jpg"}
             alt="Govind Kumar Yadav"
             className="object-cover w-full h-full"
           />
